@@ -9,13 +9,9 @@ func merge(_ intervals: [[Int]]) -> [[Int]] {
     for i in 1..<sorted.count {
         let prevStart = result.last![0]
         let prevEnd = result.last![1]
-        print(prevStart)
-        print(prevEnd)
 
         let currentStart = sorted[i][0]
         let currentEnd = sorted[i][1]
-        print(currentStart)
-        print(currentEnd)
 
         if prevEnd >= currentStart && prevEnd <= currentEnd {
             result.removeLast()
