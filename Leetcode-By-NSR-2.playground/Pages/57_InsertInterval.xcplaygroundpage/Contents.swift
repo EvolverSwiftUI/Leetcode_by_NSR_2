@@ -24,7 +24,8 @@ func insert(_ intervals: [[Int]], _ newInterval: [Int]) -> [[Int]] {
 }
 
 insert(
-    [[1,3],[6,9]], [2,5]
+    [[1,3],[6,9]],
+    [2,5]
 )
 // Output ==> [[1,5],[6,9]]
 
