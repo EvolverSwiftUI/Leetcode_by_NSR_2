@@ -19,6 +19,7 @@ func insert(_ intervals: [[Int]], _ newInterval: [Int]) -> [[Int]] {
         }
     }
     
+    result.append(newInterval)
     return result
 }
 
