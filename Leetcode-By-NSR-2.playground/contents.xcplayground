@@ -3,5 +3,6 @@
     <pages>
         <page name='435_Non-overlappingIntervals'/>
         <page name='56_MergeIntervals'/>
+        <page name='57_InsertInterval'/>
     </pages>
 </playground>
