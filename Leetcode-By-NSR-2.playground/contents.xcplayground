@@ -4,5 +4,6 @@
         <page name='435_Non-overlappingIntervals'/>
         <page name='56_MergeIntervals'/>
         <page name='57_InsertInterval'/>
+        <page name='252_MeetingRooms'/>
     </pages>
 </playground>
