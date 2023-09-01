@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
+        <page name='17_LetterCombinationsOfPhoneNumber'/>
+        <page name='18_4Sum'/>
         <page name='56_MergeIntervals'/>
         <page name='57_InsertInterval'/>
         <page name='70_ClimbingStairs'/>
@@ -8,6 +10,5 @@
         <page name='252_MeetingRooms'/>
         <page name='253_MeetingRooms-II'/>
         <page name='435_Non-overlappingIntervals'/>
-        <page name='17_LetterCombinationsOfPhoneNumber'/>
     </pages>
 </playground>
