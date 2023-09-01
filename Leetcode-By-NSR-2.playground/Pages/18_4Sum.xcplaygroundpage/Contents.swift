@@ -1,7 +1,6 @@
 import Foundation
 
-// Brute Force Approach:
-
+// Brute Force Approach
 /*
     TC  - O(n^4)
         - 4 nested loops of length n.
@@ -36,4 +35,40 @@ func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
 
 
 fourSum([1,0,-1,0,-2,2], 0) // [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
-//fourSum([2,2,2,2,2], 8) // [[2,2,2,2]]
+fourSum([2,2,2,2,2], 8) // [[2,2,2,2]]
+
+
+// Better Approach
+/*
+     TC  - O(n^3*log^n)
+         - 4 nested loops of length n.
+
+     SC  - O(2*newQuadraplet_Count)
+         - 1 one Set to store when condition met and 1 for Array to return result.
+ */
+
+func fourSum_v2(_ nums: [Int], _ target: Int) -> [[Int]] {
+    if nums.isEmpty { return [] }
+    
+    let length = nums.count
+    var set = Set<[Int]>()
+    
+    for i in 0..<length {
+        for j in i+1..<length {
+            var hashSet = Set<Int>()
+            for k in j+1..<length {
+                let fouth = target - (nums[i] + nums[j] + nums[k])
+                if hashSet.contains(fouth) {
+                    let newQuadraplet = [nums[i], nums[j], nums[k], fouth].sorted()
+                    set.insert(newQuadraplet)
+                }
+                hashSet.insert(nums[k])
+            }
+        }
+    }
+    
+    return Array(set)
+}
+
+fourSum_v2([1,0,-1,0,-2,2], 0) // [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+fourSum_v2([2,2,2,2,2], 8) // [[2,2,2,2]]
