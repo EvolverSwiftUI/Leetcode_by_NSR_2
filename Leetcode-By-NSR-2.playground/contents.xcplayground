@@ -10,5 +10,6 @@
         <page name='252_MeetingRooms'/>
         <page name='253_MeetingRooms-II'/>
         <page name='435_Non-overlappingIntervals'/>
+        <page name='704_BinarySearch'/>
     </pages>
 </playground>
