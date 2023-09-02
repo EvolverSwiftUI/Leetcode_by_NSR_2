@@ -6,7 +6,7 @@ func search(_ nums: [Int], _ target: Int) -> Int {
     var left = 0
     var right = nums.count-1
     
-    while left < right {
+    while left <= right {
         let mid = (left + right) / 2
         let midValue = nums[mid]
         if target == midValue {
