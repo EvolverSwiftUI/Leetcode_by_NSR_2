@@ -8,7 +8,7 @@ func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
     for (index,num) in nums.enumerated() {
         if num == target {
             if result[0] == -1 { // first time, so fill at first index
-                result[0] = index 
+                result[0] = index
             }
             result[1] = index // anytime fill at last index
         }
