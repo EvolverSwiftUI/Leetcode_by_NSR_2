@@ -8,6 +8,7 @@
         <page name='56_MergeIntervals'/>
         <page name='57_InsertInterval'/>
         <page name='70_ClimbingStairs'/>
+        <page name='81_SearchInRotatedSortedArray-II'/>
         <page name='200_NumberOfIslands'/>
         <page name='252_MeetingRooms'/>
         <page name='253_MeetingRooms-II'/>
