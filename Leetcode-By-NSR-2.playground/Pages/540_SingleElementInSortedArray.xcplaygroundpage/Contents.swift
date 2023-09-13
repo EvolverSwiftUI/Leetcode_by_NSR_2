@@ -26,3 +26,38 @@ func singleNonDuplicate(_ nums: [Int]) -> Int {
 
 singleNonDuplicate([1,1,2,3,3,4,4,8,8]) // 2
 singleNonDuplicate([3,3,7,7,10,11,11]) // 10
+
+// optimal approach
+// O(log^n)
+func singleNonDuplicate_v2(_ nums: [Int]) -> Int {
+    let n = nums.count
+    
+    if n == 1 { return nums[0] } // exception case: having single element
+    if nums[0] != nums[1] { return nums[0] } // edge case 1: leftmost element check
+    if nums[n-1] != nums[n-2] { return nums[n-1] } // edge case 2: rightmost element check
+    
+    var left = 1
+    var right = n-2
+    
+    while left <= right {
+        let mid = (left+right)/2
+        
+        if (nums[mid] != nums[mid-1]) && (nums[mid] != nums[mid+1]) {
+            // we got target element
+            return nums[mid]
+        }
+        else if (mid % 2 == 1 && nums[mid] == nums[mid-1]) || (mid % 2 == 0 && nums[mid] == nums[mid+1]) {
+            // we in left side of target element, so strikeoff left portion
+            left = mid + 1
+        }
+        else {
+            // we in right side of target element, so strikeoff right portion
+            right = mid - 1
+        }
+    }
+    
+    return -1
+}
+
+singleNonDuplicate_v2([1,1,2,3,3,4,4,8,8]) // 2
+singleNonDuplicate_v2([3,3,7,7,10,11,11]) // 10
