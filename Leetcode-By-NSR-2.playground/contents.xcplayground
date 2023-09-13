@@ -14,6 +14,7 @@
         <page name='252_MeetingRooms'/>
         <page name='253_MeetingRooms-II'/>
         <page name='435_Non-overlappingIntervals'/>
+        <page name='540_SingleElementInSortedArray'/>
         <page name='704_BinarySearch'/>
         <page name='ReverseStringExceptSpecialChars'/>
         <page name='RotationCountOfRotatedSortedArray'/>
