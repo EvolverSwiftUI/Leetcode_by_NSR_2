@@ -10,6 +10,7 @@
         <page name='70_ClimbingStairs'/>
         <page name='81_SearchInRotatedSortedArray-II'/>
         <page name='153_FindMinimumInRotatedSortedArray'/>
+        <page name='162_FindPeakElement'/>
         <page name='200_NumberOfIslands'/>
         <page name='252_MeetingRooms'/>
         <page name='253_MeetingRooms-II'/>
