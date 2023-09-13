@@ -16,5 +16,6 @@
         <page name='435_Non-overlappingIntervals'/>
         <page name='704_BinarySearch'/>
         <page name='ReverseStringExceptSpecialChars'/>
+        <page name='RotationCountOfRotatedSortedArray'/>
     </pages>
 </playground>
