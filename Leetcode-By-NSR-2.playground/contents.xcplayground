@@ -20,5 +20,6 @@
         <page name='704_BinarySearch'/>
         <page name='ReverseStringExceptSpecialChars'/>
         <page name='RotationCountOfRotatedSortedArray'/>
+        <page name='Nth_RootOfInteger'/>
     </pages>
 </playground>
