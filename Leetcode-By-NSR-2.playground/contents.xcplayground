@@ -18,6 +18,7 @@
         <page name='435_Non-overlappingIntervals'/>
         <page name='540_SingleElementInSortedArray'/>
         <page name='704_BinarySearch'/>
+        <page name='875_KokoEatingBananas'/>
         <page name='ReverseStringExceptSpecialChars'/>
         <page name='RotationCountOfRotatedSortedArray'/>
         <page name='Nth_RootOfInteger'/>
