@@ -85,7 +85,6 @@ func minDays_v2(_ bloomDay: [Int], _ m: Int, _ k: Int) -> Int {
         return bouquets >= m
     }
 
-//    var bloomDay = bloomDay.sorted()
     let mini = bloomDay.min()!
     let maxi = bloomDay.max()!
     

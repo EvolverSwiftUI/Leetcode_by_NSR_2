@@ -4,7 +4,6 @@ import Foundation
 
 func smallestDivisor(_ nums: [Int], _ threshold: Int) -> Int {
     
-    
     func sumOfDivision(_ nums: [Int], _ divisor: Int) -> Int {
         var sum = 0
         nums.forEach { num in

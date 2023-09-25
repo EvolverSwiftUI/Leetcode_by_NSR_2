@@ -19,6 +19,7 @@
         <page name='540_SingleElementInSortedArray'/>
         <page name='704_BinarySearch'/>
         <page name='875_KokoEatingBananas'/>
+        <page name='1011_CapacityToShipPackagesWithinDDays'/>
         <page name='1283_FindtheSmallestDivisorGivenaThreshold'/>
         <page name='1482_MinimumNumberofDaystoMakemBouquets'/>
         <page name='ReverseStringExceptSpecialChars'/>
