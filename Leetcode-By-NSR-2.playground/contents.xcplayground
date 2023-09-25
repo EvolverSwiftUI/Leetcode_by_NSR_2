@@ -19,9 +19,10 @@
         <page name='540_SingleElementInSortedArray'/>
         <page name='704_BinarySearch'/>
         <page name='875_KokoEatingBananas'/>
+        <page name='1283_FindtheSmallestDivisorGivenaThreshold'/>
+        <page name='1482_MinimumNumberofDaystoMakemBouquets'/>
         <page name='ReverseStringExceptSpecialChars'/>
         <page name='RotationCountOfRotatedSortedArray'/>
         <page name='Nth_RootOfInteger'/>
-        <page name='1482_MinimumNumberofDaystoMakemBouquets'/>
     </pages>
 </playground>
