@@ -5,6 +5,7 @@
         <page name='18_4Sum'/>
         <page name='33_SearchInRotatedSortedArray'/>
         <page name='34_FindFirstandLastPositionofElementinSortedArray'/>
+        <page name='42_TrappingRainWater'/>
         <page name='56_MergeIntervals'/>
         <page name='57_InsertInterval'/>
         <page name='69_SqrtOf_X'/>
